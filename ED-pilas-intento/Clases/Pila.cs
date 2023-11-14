@@ -90,6 +90,23 @@ namespace ED_pilas_intento.Clases
 			}
 		}
 
+		//limpiar elementos de la pila: LimpiarPila
+		public bool Limpiar()
+		{
+			if (PilaVacia())
+			{
+				return false;
+			}
+			else
+			{
+				while (!PilaVacia())
+				{
+                    Pop();
+                }
+				return true;
+			}
+		}
+
 		// Imprimir los datos de la pila: ImprimirDatos
 		public void ImprimirDatos()
 		{
