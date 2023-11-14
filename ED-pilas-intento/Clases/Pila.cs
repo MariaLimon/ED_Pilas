@@ -8,46 +8,86 @@ namespace ED_pilas_intento.Clases
 {
 	internal class Pila
 	{
-		
-		
-			int[] datosPila;
-			int punteroPila = -1;
-			const int MAXPILA = 10;
 
-			// Constructor
-			public Pila()
-			{
-				punteroPila = 0;
-				datosPila = new int[MAXPILA];
-			}
+		private int _cima;
+		private int[] listaPila;
+		private int longitudPila = 5;
+			
 
-		// Añadir a la pila: Push
-		public void Push(int dato)
+		// Constructor
+		public Pila()
 		{
-			if (PilaVacia() == false)
+			_cima = -1;
+			listaPila = new int[longitudPila];
+		}
+
+        //la pila esta vacia: PilaVacia
+        public bool PilaVacia()
+        {
+            return _cima == -1? false : true;
+			/*
+            if (_cima == -1)
+            {
+                return true;
+            }
+			return false;
+            /*otra forma de hacerlo es con operador ternario solo se puede tener dos opciones
+                return _cima == -1 ? false : true;
+             */
+        }
+
+		public bool PilaLlena()
+		{
+			return _cima == longitudPila-1? false : true;
+		}
+
+		//tamaño de la pila: TamañoPila
+		public int TamañoPila()
+		{
+			return longitudPila;
+		}
+
+		//cantidad de elementos de la pila: CantidadElementosPila
+		public int CantidadElementosPila()
+		{
+			return _cima + 1;
+		}
+
+		//leer el valor de la cima: ValorCima
+		public int ValorCima()
+		{
+			return listaPila[_cima];
+		}
+
+        // Insertar elementos en la pila: Push
+        public bool Push(int dato)
+		{
+			if (PilaLlena())
 			{
-				Console.WriteLine("Pila llena!");
+				return false;
 			}
 			else
 			{
-				datosPila[punteroPila] = dato;
-				punteroPila++;
+                _cima++;
+                listaPila[_cima] = dato;
+				return true;
 			}
 		}
 
-		// Extraer de la pila: Pop
+		// Extraer un elemento de la pila: Pop
 		public int Pop()
 		{
 			if (PilaVacia())
 			{
-				Console.WriteLine("Pila vacia!");
+				Console.WriteLine("la pila esta vacia");
+				return _cima;
 			}
 			else
 			{ 
-				punteroPila--;
-				return datosPila[punteroPila];
+				int auxiliar = listaPila[_cima];
+				_cima--;
+				return auxiliar;
 			}
-			return -0;
 		}
 
 		// Imprimir los datos de la pila: ImprimirDatos
@@ -59,32 +99,15 @@ namespace ED_pilas_intento.Clases
 			}
 			else
 			{
-				for (int i = punteroPila - 1; i >= 0; i--)
+				for (int i = _cima - 1; i >= 0; i--)
 				{
-					Console.WriteLine($"{datosPila[i]}->");
+					Console.WriteLine($"{listaPila[_cima]}->");
 				}
 				Console.WriteLine("->null");
 			}
 		}
 
-		//la pila esta vacia: PilaVacia
-		public bool PilaVacia()
-		{
-			if (punteroPila == -1)
-			{
-				return true;
-			}
-			else if(punteroPila == MAXPILA)
-			{
-				return false;
-			}
-			else
-			{
-				return true;
-			}
-			/*otra forma de hacerlo es con operador ternario solo se puede tener dos opciones
-                return primero == null ? false : true;
-             */
-		}
+		
+		
 	}
 }

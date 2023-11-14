@@ -8,23 +8,23 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\CD16\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ED-pilas-intento\\ED-pilas-intento\\ED-pilas-intento.csproj",
+      "projectUniqueName": "C:\\Users\\CD16\\Source\\Repos\\ED_Pilas\\ED-pilas-intento\\ED-pilas-intento.csproj",
       "projectName": "ED-pilas-intento",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\ED-pilas-intento\\ED-pilas-intento\\ED-pilas-intento.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\ED-pilas-intento\\ED-pilas-intento\\obj\\",
+      "projectPath": "C:\\Users\\CD16\\Source\\Repos\\ED_Pilas\\ED-pilas-intento\\ED-pilas-intento.csproj",
+      "packagesPath": "C:\\Users\\CD16\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CD16\\Source\\Repos\\ED_Pilas\\ED-pilas-intento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CD16\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
