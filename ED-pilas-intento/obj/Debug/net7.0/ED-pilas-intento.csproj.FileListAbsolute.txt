@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\bin\Debug\net7.0\ED-pilas-intento.exe
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\bin\Debug\net7.0\ED-pilas-intento.deps.json
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\bin\Debug\net7.0\ED-pilas-intento.runtimeconfig.json
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\bin\Debug\net7.0\ED-pilas-intento.dll
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\bin\Debug\net7.0\ED-pilas-intento.pdb
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.dll
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\refint\ED-pilas-intento.dll
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.pdb
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ED-pilas-intento.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ED-pilas-intento\ED-pilas-intento\obj\Debug\net7.0\ref\ED-pilas-intento.dll
