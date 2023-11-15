@@ -24,7 +24,7 @@ namespace ED_pilas_intento.Clases
         //la pila esta vacia: PilaVacia
         public bool PilaVacia()
         {
-            return _cima == -1? false : true;
+            return _cima == -1 ? true: false;
 			/*
             if (_cima == -1)
             {
@@ -38,7 +38,7 @@ namespace ED_pilas_intento.Clases
 
 		public bool PilaLlena()
 		{
-			return _cima == longitudPila-1? false : true;
+			return _cima == longitudPila-1? true : false;
 		}
 
 		//tamaño de la pila: TamañoPila
@@ -68,7 +68,7 @@ namespace ED_pilas_intento.Clases
 			}
 			else
 			{
-                _cima++;
+				_cima++;
                 listaPila[_cima] = dato;
 				return true;
 			}
@@ -112,19 +112,36 @@ namespace ED_pilas_intento.Clases
 		{
 			if (PilaVacia())
 			{
-				Console.WriteLine("la pila esta vacia");
+				Console.WriteLine("La pila está vacía");
 			}
 			else
 			{
-				for (int i = _cima - 1; i >= 0; i--)
+				for (int i = 0; i < _cima+1; i++)
 				{
-					Console.WriteLine($"{listaPila[_cima]}->");
+					Console.WriteLine($"{listaPila[i]}->");
 				}
 				Console.WriteLine("->null");
 			}
 		}
+		/*
+		public void ImprimirDatos()
+		{
+			if (PilaVacia())
+			{
+				Console.WriteLine("la pila esta vacia");
+			}
+			else
+			{
+				int contador = 0;
+				while (_cima+1 != contador)
+				{
 
-		
-		
+					Console.WriteLine($"{listaPila[contador]}->");
+					contador++;
+				}
+				Console.WriteLine("->null");
+			}
+		}
+		*/
 	}
 }
